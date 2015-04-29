@@ -1,0 +1,199 @@
+body {
+	background-color: #F5F5DC;
+	margin: 0px;
+}
+
+#container {
+	width: 1302px;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#btnContainer {
+	position: relative;
+}
+
+#addJobBtn {
+	position: absolute;
+	left: 5px;
+	height: 37px;
+	color: #000000;
+}
+
+#timeSimBtn {
+	position: absolute;
+	right: 5px;
+	height: 37px;
+	color: #000000;
+}
+
+#outerChartContainer,
+#outerTableContainer {
+	text-align: center;
+}
+
+#outerChartContainer {
+	position: relative;
+}
+
+#timeText {
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	margin: 0px;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px solid #666666;
+	background-color: #e6e6e6;
+	border-radius: 4px;
+}
+
+#timeCounter {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+h2 {
+	margin: 60px 0px 10px 0px;
+}
+
+#chartContainer {
+	height: 360px;
+	width: 1300px;
+	border: 2px solid #666666;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+}
+
+.ui-button-text {
+	color: #000000;
+}
+
+/* Pasûtîjumu pievienoðanas dialoga stils */
+.add-job-field-container {
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.add-job-label-block {
+	display: inline-block;
+	width: 270px;
+}
+
+.add-job-field-block {
+	display: inline-block;
+	float: right;
+}
+
+.job-workstation-cb span {
+	padding: 4px 8px !important;
+}
+
+input:focus,
+#jobProfile-button:focus,
+.ui-button:focus {
+	outline: none !important;
+	outline-offset: 0px !important;
+}
+
+#jobQuantity {
+	width: 60px;
+}
+
+#jobProfile-button .ui-selectmenu-text {
+	color: #000000;
+	padding: 2px 32px 2px 12px !important;
+}
+
+#jobWorkstationsLabelBlock,
+#jobWorkstations {
+	padding-top: 10px;
+}
+
+.ui-dialog {
+	padding: 2px;
+}
+
+.ui-dialog,
+.ui-dialog-content,
+.ui-dialog-buttonpane,
+.ui-resizable-handle {
+	z-index: 100 !important;
+	background-color: #F5F5DC !important;
+}
+
+.ui-selectmenu-menu {
+	z-index: 101 !important;
+}
+
+#warningText {
+	margin: 5px 0px;
+	font-size: 12px;
+	color: #FF0000;
+	display: none;
+}
+
+/* Tabulas stils */
+#jobTable {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+#jobTable th,
+#jobTable td {
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+#jobTable tr td:last-child {
+	padding: 10px !important;
+	width: 25px;
+}
+
+#jobTable thead {
+	background-color: #b8b8b8;
+}
+
+#jobTable tbody {
+	background-color: #e6e6e6;
+}
+
+.remove-job-button {
+	width: 27px !important;
+	height: 27px;
+	border: 1px solid #666666;
+	margin: 0px;
+}
+
+.remove-job-button .ui-button-text {
+	padding: 0px !important;
+	font-weight: bold;
+	width: 25px;
+	height: 25px;
+	color: #333333;
+}
+
+/* Diagrammas bloka stili */
+.chart-container {
+	margin-top: 5px;
+}
+
+.chart-container rect {
+  	fill: transparent !important;
+	stroke: #333333;
+	stroke-width: 1px;
+}
+
+.chart-container text {
+  	fill: #333333;
+}
+
+.chart-label-text {
+	font-size: 20px;
+}
+
+.lines-text {
+	font-size: 14px;
+}
