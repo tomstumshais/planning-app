@@ -1,3 +1,3 @@
 # planning_app
-Implemented customized S. M. Johnson's scheduling algorithm in app.
+Implemented customized S. M. Johnson's scheduling algorithm.
 Test
