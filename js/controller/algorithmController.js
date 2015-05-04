@@ -30,7 +30,6 @@ ScheduleAlgorithm = {
 			
 			Util.jobList = startedJobList.concat(listA, listB);
 			ScheduleAlgorithm.setEndTimeForJobs();
-			console.log(Util.jobList);
 		},
 		
 		setEndTimeForJobs : function(){
@@ -73,6 +72,5 @@ ScheduleAlgorithm = {
 					}
 				}
 			}
-			console.log(Util.jobList);
 		}
 }
