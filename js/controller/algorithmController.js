@@ -36,7 +36,6 @@ ScheduleAlgorithm = {
 			for(var i = 0; i < Util.jobList.length; i++){
 				var addedTime = Util.jobList[i].ADDED_TIME;
 				if(i == 0){
-					//TODO: jāuzliek pārbaude priekš added_time
 					Util.jobList[i].M1.END_TIME = Util.jobList[i].M1.TIME;
 					Util.jobList[i].M2.END_TIME = Util.jobList[i].M1.END_TIME + Util.jobList[i].M2.TIME;
 					Util.jobList[i].M3.END_TIME = Util.jobList[i].M2.END_TIME + Util.jobList[i].M3.TIME;
