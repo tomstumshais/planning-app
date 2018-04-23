@@ -1,4 +1,4 @@
-# planning_app
+# Planning app
 Implemented customized S. M. Johnson's scheduling algorithm for Master degree's practical task.
 
 Used technologies:
